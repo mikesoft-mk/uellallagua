@@ -7,8 +7,17 @@ use App\Http\Controllers\RegistroUsuariofController;
 
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('public.inicio');
+})->name('inicio');
+Route::get('/comunicados', function () {
+    return view('public.comunicados');
+})->name('comunicados');
+Route::get('/publicaciones', function () {
+    return view('public.publicaciones');
+})->name('publicaciones');
+Route::get('/calificaciones', function () {
+    return view('public.calificaciones');
+})->name('calificaciones');
 
 
 Auth::routes();

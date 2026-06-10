@@ -1,0 +1,51 @@
+.logo-navbar {
+    position: relative;
+    height: 110px;
+    margin-bottom: -50px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .logo-navbar {
+        height: 60px;
+        margin-top: 0;
+    }
+}
+.navbar-list {
+    font-weight: bold;
+}
+.active {
+    color: #0d47a1 !important;
+}
+/* Banner Principal */
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 25%;
+    text-align: left;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.carousel-caption .btn {
+    margin-top: 15px;
+    padding: 12px 30px;
+}
+
+.banner {
+    height: calc(100vh - 530px);
+    background-image: url("../img/img1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
