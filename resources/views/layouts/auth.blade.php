@@ -9,7 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inicio de Sesion</title>
+    <title>Inicio de Sesión</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('theme/img/logo.png') }}">
 
     <!-- Custom fonts for this template-->
     <link href="theme/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
